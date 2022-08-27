@@ -15,19 +15,17 @@ public class Exercise3_15 {
 
         
         int lotteryDigit1 = lottery / 100;
-		int remainingDigits = lottery % 100;
-		int lotteryDigit2 = remainingDigits / 10;
-		int lotteryDigit3 = remainingDigits % 10;
-        
+		int lotteryDigit2 = (lottery % 100) / 10;
+		int lotteryDigit3 = lottery % 10;
+
 		int guessDigit1 = guess / 100;
-		int remainingDigits1 = guess % 100;
-		int guessDigit2 = remainingDigits1 / 10;
-		int guessDigit3 = remainingDigits1 % 10;
+		int guessDigit2 = (guess % 100) / 10;
+		int guessDigit3 = lottery % 10;
         
 
         System.out.println("The lottery numbers are: " + lottery);
 
-        if (guess == lottery) {
+        if (guess == lottery) 
             System.out.println("Exact Match");
         
         else if 
@@ -48,10 +46,11 @@ public class Exercise3_15 {
             || guessDigit3 == lotteryDigit2
             || guessDigit3 == lotteryDigit3)  
             System.out.println("Mathed one number");
-        }
+        
         else 
             System.out.println("No Match");
+	}
+}
 
-}
-}
+
 
