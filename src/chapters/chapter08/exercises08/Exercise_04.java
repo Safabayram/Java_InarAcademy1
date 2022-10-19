@@ -14,7 +14,7 @@ public class Exercise_04 {
                         {3, 7, 4, 8, 3, 8, 4},
                         {6, 3, 5, 9, 2, 7, 9}};
 
-        //int[][] totalHoursPerEmployee = new int[7][1];
+
         int[] totalHoursPerEmployee = sumEmployeeHours(employeeHours);
         int[] index = new int[totalHoursPerEmployee.length];
         sorts(totalHoursPerEmployee,index);
