@@ -9,7 +9,7 @@ public class Exercise_20 {
         BigDecimal sum = BigDecimal.ONE;
 
         for (int i = 1; i <= 1000; i++) {
-            sum = sum.divide(new BigDecimal(i + ""), 25, RoundingMode.UP);
+            sum = sum.divide(new BigDecimal(i), 25, RoundingMode.UP);
             e = e.add(sum);
 
             if (i % 100 == 0)
