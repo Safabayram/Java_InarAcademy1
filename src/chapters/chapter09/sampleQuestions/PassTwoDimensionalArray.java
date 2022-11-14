@@ -1,4 +1,4 @@
-package chapters.chapter08.sampleQuestions;
+package chapters.chapter09.sampleQuestions;
 
 import java.util.Scanner;
 

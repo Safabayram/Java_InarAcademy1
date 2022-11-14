@@ -65,5 +65,15 @@ public class Account {
     public void deposit(double amount) {
         balance += amount;
     }
+
+    @Override
+    public String toString() {
+        return "Account{" +
+                "id=" + id +
+                ", balance=" + balance +
+                ", annualInterestRate=" + annualInterestRate +
+                ", dateCreated=" + dateCreated +
+                '}';
+    }
 }
 
