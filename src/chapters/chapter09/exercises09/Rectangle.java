@@ -11,18 +11,18 @@ public class Rectangle {
     }
 
 
-    Rectangle(double newWidth, double newHeight) {
+    public Rectangle(double newWidth, double newHeight) {
         this.width = newWidth;
         this.height = newHeight;
     }
 
 
-    double getArea() {
+    public double getArea() {
         return width * height;
     }
 
 
-    double getPerimeter() {
+    public double getPerimeter() {
         return 2 * (width + height);
     }
 
